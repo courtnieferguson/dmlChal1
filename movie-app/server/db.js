@@ -21,7 +21,7 @@ knex.schema
     .then((exists) => {
         if (!exists) {
             // If no "movies" table exists
-            // create new, with "id", "directior", "title",
+            // create new, with "id", "director", "title",
             // "releaseDate" and "rating" columns
             // and use "id" as a primary identification
             // and increment "id" with every new record (movie)
