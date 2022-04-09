@@ -11,5 +11,5 @@ import './styles/styles.css'
 // Find div container
 const rootElement = document.getElementById('root')
 
-// Render Bookshelf component in the DOM
+// Render Movies component in the DOM
 render(<Movies />, rootElement)

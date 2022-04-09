@@ -38,9 +38,9 @@ exports.moviesCreate = async (req, res) => {
 }
 
 // Remove specific movie
-exports.movieDelete = async (req, res) => {
+exports.moviesDelete = async (req, res) => {
     // Find specific movie in the database and remove it
-    knex('movies')
+    knex('movie')
         .where('id', req.body.id) // find correct record based on id
         .del() // delete the record
         .then(() => {

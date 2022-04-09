@@ -1,5 +1,3 @@
-// Import deps
-// @ts-ignore
 import React from 'react'
 
 // Import components

@@ -1,12 +1,29 @@
 {
-  "name": "movie-app",
+  "name": "movies-react-express-sqlite-app",
   "version": "1.0.0",
+  "description": "App for collecting movuies built with React, Express and SQLite.",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "app",
+    "movies",
+    "express",
+    "javascript",
+    "react",
+    "sqlite",
+    "typescript"
+  ],
   "browserslist": [
     "last 7 versions",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
   ],
+  "engines": {
+    "node": ">=10.0",
+    "npm": ">=6.0",
+    "yarn": ">=1.1.0"
+  },
   "main": "src/index.tsx",
   "prox": "http://localhost:4001",
   "scripts": {
@@ -19,7 +36,7 @@
     "test": "react-scripts test --env=jsdom"
   },
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "0.21.2",
     "body-parser": "1.19.0",
     "compression": "1.7.4",
     "cors": "2.8.5",
