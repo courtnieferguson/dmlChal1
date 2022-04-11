@@ -7,8 +7,8 @@ const moviesRoutes = require('./../controllers/movies-controller.js')
 // Create router
 const router = express.Router()
 
-// Add route for GET request to retrieve all book
-// In server.js, books route is specified as '/movies'
+// Add route for GET request to retrieve all movies
+// In server.js, movies route is specified as '/movies'
 // this means that '/all' translates to '/movies/all'
 router.get('/all', moviesRoutes.moviesAll)
 

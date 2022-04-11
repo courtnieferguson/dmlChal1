@@ -118,14 +118,14 @@ export const Movies = () => {
                         </fieldset>
 
                         <fieldset>
-                            <label className="form-label" htmlFor="director">Enter author:</label>
+                            <label className="form-label" htmlFor="director">Enter Director:</label>
                             <input className="form-input" type="text" id="director" name="director" value={director} onChange={(e) => setDirector(e.currentTarget.value)} />
                         </fieldset>
                     </div>
 
                     <div className="form-row">
                         <fieldset>
-                            <label className="form-label" htmlFor="releaseDate">Enter publication date:</label>
+                            <label className="form-label" htmlFor="releaseDate">Enter release date:</label>
                             <input className="form-input" type="text" id="releaseDate" name="releaseDate" value={releaseDate} onChange={(e) => setReleaseDate(e.currentTarget.value)} />
                         </fieldset>
 
